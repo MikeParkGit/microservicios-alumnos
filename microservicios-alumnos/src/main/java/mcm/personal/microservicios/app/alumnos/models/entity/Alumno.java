@@ -7,10 +7,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.PrePersist;
 import javax.persistence.Table;
 
 @Entity
-@Table
+@Table(name="alumnos")
 public class Alumno {
 	
 	@Id
@@ -25,6 +26,11 @@ public class Alumno {
 	
 	@Column(nullable = false)
 	private LocalDateTime createAt;
+	
+	@PrePersist
+	public void prePersist() {
+		this.createAt = LocalDateTime.now();
+	}
 	
 	
 	public Long getId() {
