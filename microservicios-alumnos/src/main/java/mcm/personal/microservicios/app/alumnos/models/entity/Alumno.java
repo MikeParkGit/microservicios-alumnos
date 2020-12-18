@@ -58,7 +58,4 @@ public class Alumno {
 		this.createAt = createAt;
 	}
 
-	public void metodoTest() {
-		
-	}
 }
