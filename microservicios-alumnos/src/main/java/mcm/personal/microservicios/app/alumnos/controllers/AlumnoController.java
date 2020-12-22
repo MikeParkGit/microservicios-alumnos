@@ -26,7 +26,8 @@ public class AlumnoController {
 	
 	@GetMapping
 	public ResponseEntity<?> listar() {
-		return ResponseEntity.ok().body(service.findAll());
+		//return ResponseEntity.ok().body(service.findAll());
+		return ResponseEntity.status(HttpStatus.OK).body(service.findAll());
 	}
 	
 	@GetMapping("/{id}")
