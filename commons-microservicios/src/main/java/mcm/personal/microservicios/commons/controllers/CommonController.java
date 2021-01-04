@@ -21,7 +21,6 @@ public class CommonController<E, S extends CommonService<E> > {
 	
 	@GetMapping
 	public ResponseEntity<?> listar() {
-		//return ResponseEntity.ok().body(service.findAll());
 		return ResponseEntity.status(HttpStatus.OK).body(service.findAll());
 	}
 	
