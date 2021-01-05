@@ -1,4 +1,4 @@
-package mcm.personal.microservicios.app.alumnos.models.entity;
+package mcm.personal.microservicios.commons.entities.models.entity;
 
 import java.time.LocalDateTime;
 
@@ -67,5 +67,17 @@ public class Alumno {
 		this.email = email;
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj) {
+			return true;
+		}
+		if (!(obj instanceof Alumno)) {
+			return false;
+		}
+		Alumno alumnno = (Alumno) obj;
+		
+		return this.id != null && this.id.equals(alumnno.getId());
+	}
 	
 }

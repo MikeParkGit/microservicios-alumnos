@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import mcm.personal.microservicios.app.alumnos.models.entity.Alumno;
 import mcm.personal.microservicios.app.alumnos.models.repository.AlumnoRepository;
+import mcm.personal.microservicios.commons.entities.models.entity.Alumno;
 
 @Service
 public class AlumnoServiceImpl implements AlumnoService {

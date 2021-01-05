@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import mcm.personal.microservicios.app.alumnos.models.entity.Alumno;
 import mcm.personal.microservicios.app.alumnos.services.AlumnoService;
+import mcm.personal.microservicios.commons.entities.models.entity.Alumno;
 
 
 @RestController

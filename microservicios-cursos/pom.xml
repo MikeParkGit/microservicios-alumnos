@@ -22,6 +22,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>mcm.personal.microservicios.commons.entities</groupId>
+			<artifactId>commons-entities</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<groupId>mcm.personal.microservicios.commons</groupId>
 			<artifactId>commons-microservicios</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
