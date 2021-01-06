@@ -1,5 +1,6 @@
 package mcm.personal.microservicios.app.alumnos.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +36,13 @@ public class AlumnoServiceImpl implements AlumnoService {
 	@Transactional
 	public void deleteById(Long id) {
 		repository.deleteById(id);
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public List<Alumno> findByNombreOrApellido(String param) {
+		
+		return repository.findByNombreOrApellido(param);
 	}
 	
 

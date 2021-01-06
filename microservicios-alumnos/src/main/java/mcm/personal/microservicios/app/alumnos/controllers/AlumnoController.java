@@ -71,4 +71,8 @@ public class AlumnoController {
 		return ResponseEntity.noContent().build();
 	}
 	
+	@GetMapping("/buscar/{param}")
+	public ResponseEntity<?> buscar(@PathVariable String param) {
+		return ResponseEntity.status(HttpStatus.OK).body(service.findByNombreOrApellido(param));
+	}
 }
