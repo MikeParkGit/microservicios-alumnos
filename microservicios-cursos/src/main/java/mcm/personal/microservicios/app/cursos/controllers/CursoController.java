@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -31,7 +32,7 @@ public class CursoController extends CommonController<Curso, CursoService>{
 		return ResponseEntity.status(HttpStatus.CREATED).body(service.save(cursoDB));
 	}
 	
-	@PutMapping("/{id}/asignar-alumnos")
+	@PutMapping("/asignar-alumnos/{id}")
 	public ResponseEntity<?> asigarAlumnos(@RequestBody List<Alumno> lstAlumnos, @PathVariable Long id) {
 		Optional<Curso> optional = service.findById(id);
 		if (!optional.isPresent()) {
@@ -54,8 +55,8 @@ public class CursoController extends CommonController<Curso, CursoService>{
 	 * @param idCurso id del curso del que se va a eliminar el alumno
 	 * @return
 	 */
-	@PutMapping("/{id}/eliminar-alumno")
-	public ResponseEntity<?> eliminarAlumno(@RequestBody Alumno alumno, @PathVariable Long idCurso) {
+	@PutMapping("/eliminar-alumno/{id}")
+	public ResponseEntity<?> eliminarAlumno(@RequestBody Alumno alumno, @PathVariable(name = "id") Long idCurso) {
 		Optional<Curso> optional = service.findById(idCurso);
 		if (!optional.isPresent()) {
 			return ResponseEntity.notFound().build();
@@ -66,4 +67,10 @@ public class CursoController extends CommonController<Curso, CursoService>{
 		return ResponseEntity.status(HttpStatus.CREATED).body(service.save(cursoDB));
 	}
 	
+	@GetMapping("/cursos-alumno/{id}")
+	public ResponseEntity<?> buscarPorAlumnoId(@PathVariable Long id) {
+		List<Curso> cursos = service.findCursosByAlumnoId(id);
+		
+		return ResponseEntity.status(HttpStatus.OK).body(cursos);
+	}
 }
