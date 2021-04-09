@@ -10,19 +10,24 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
+
+import org.springframework.hateoas.RepresentationModel;
 
 @Entity
 @Table(name="cursos")
-public class Curso {
+public class Curso extends RepresentationModel<Curso> {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
 	@Column
+	@NotEmpty
 	private String nombre;
 	
 	@Column(nullable = false)
@@ -31,6 +36,9 @@ public class Curso {
 	@OneToMany(fetch = FetchType.LAZY)
 	private List<Alumno> alumnos;
 	
+	@ManyToMany(fetch = FetchType.LAZY)
+	private List<Examen> examenes;
+	
 	@PrePersist
 	private void prePersist() {
 		this.createAt = LocalDateTime.now();
@@ -38,7 +46,9 @@ public class Curso {
 	
 	public Curso() {
 		this.alumnos = new ArrayList<>();
+		this.examenes = new ArrayList<>();
 	}
+	
 
 	public Long getId() {
 		return id;
@@ -72,6 +82,14 @@ public class Curso {
 		this.alumnos = alumnos;
 	}
 	
+	public List<Examen> getExamenes() {
+		return examenes;
+	}
+
+	public void setExamenes(List<Examen> examenes) {
+		this.examenes = examenes;
+	}
+
 	public void addAlumno(Alumno alumno) {
 		this.alumnos.add(alumno);
 	}
@@ -79,5 +97,12 @@ public class Curso {
 	public void removeAlumno(Alumno alumno) {
 		this.alumnos.remove(alumno);
 	}
+	
+	public void addExamen(Examen examen) {
+		this.examenes.add(examen);
+	}
 
+	public void removeExamen(Examen examen) {
+		this.examenes.remove(examen);
+	}
 }

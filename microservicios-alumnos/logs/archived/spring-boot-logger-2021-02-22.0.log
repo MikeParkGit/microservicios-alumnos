@@ -1,0 +1,11 @@
+2021-02-22 16:36:52,954 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 9976 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-22 16:36:52,981 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-22 16:36:52,982 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-22 16:36:59,981 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 7.767 seconds (JVM running for 9.3)
+2021-02-22 16:38:37,334 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-22 21:27:59,996 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 9844 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-22 21:28:00,025 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-22 21:28:00,026 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-22 21:28:08,359 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 9.731 seconds (JVM running for 12.767)
+2021-02-22 21:30:13,070 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-22 21:30:23,963 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-2] Ingresa a AlumnoController.listar 

@@ -1,10 +1,10 @@
-package mcm.personal.microservicios.commons.entities;
+package mcm.personal.microservicios.app.examenes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CommonsEntitiesApplicationTests {
+class MicroserviciosExamenesApplicationTests {
 
 	@Test
 	void contextLoads() {

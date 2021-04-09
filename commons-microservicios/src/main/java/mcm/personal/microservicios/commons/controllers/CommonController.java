@@ -1,10 +1,15 @@
 package mcm.personal.microservicios.commons.controllers;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
+
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -35,7 +40,10 @@ public class CommonController<E, S extends CommonService<E> > {
 	}
 	
 	@PostMapping
-	public ResponseEntity<?> crear(@RequestBody E entity) {
+	public ResponseEntity<?> crear(@Valid @RequestBody E entity, BindingResult result) {	//BindingResult siempre va despues del Entity
+		if (result.hasErrors()) {
+			return this.retornarErrores(result);
+		}
 		E entityDb = service.save(entity);
 		return ResponseEntity.status(HttpStatus.CREATED).body(entityDb);
 	}
@@ -47,4 +55,18 @@ public class CommonController<E, S extends CommonService<E> > {
 		return ResponseEntity.noContent().build();
 	}
 	
+	/**
+	 * Metodo empleado para recuperar y retornar lows errores de validación encontrados por el BindingResult asociado al Entity que precede.
+	 * Aplicable a los diferentes Entities que lleven anotaciones @NotEmpty, @NotNull, @Email, etc
+	 * @param result
+	 * @return
+	 */
+	protected ResponseEntity<?> retornarErrores(BindingResult result) {
+		
+		Map<String, Object> errores = new HashMap<>();
+		result.getFieldErrors().forEach(error -> {
+			errores.put(error.getField(), "El campo: " + error.getField() + " " + error.getDefaultMessage());
+		});
+		return ResponseEntity.badRequest().body(errores);
+	}
 }

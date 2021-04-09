@@ -1,0 +1,81 @@
+2021-02-23 18:57:40,178 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 11784 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-23 18:57:40,183 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-23 18:57:40,183 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-23 18:57:50,525 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 11.167 seconds (JVM running for 13.023)
+2021-02-23 19:01:47,580 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 17140 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-23 19:01:47,582 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-23 19:01:47,582 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-23 19:01:54,311 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 7.446 seconds (JVM running for 9.08)
+2021-02-23 19:04:13,461 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-23 19:16:45,388 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 17140 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-23 19:16:45,388 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-23 19:16:45,389 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-23 19:16:48,412 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 3.36 seconds (JVM running for 903.181)
+2021-02-23 19:17:51,771 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-2-exec-1] Ingresa a AlumnoController.listar 
+2021-02-23 19:43:22,345 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 14432 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-23 19:43:22,347 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-23 19:43:22,347 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-23 19:43:31,232 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 9.609 seconds (JVM running for 11.188)
+2021-02-23 19:44:36,559 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 2924 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-23 19:44:36,561 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-23 19:44:36,562 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-23 19:44:43,807 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 8.015 seconds (JVM running for 9.647)
+2021-02-23 19:46:16,007 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 16336 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-23 19:46:16,008 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-23 19:46:16,009 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-23 19:46:22,876 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 7.673 seconds (JVM running for 9.283)
+2021-02-23 20:39:47,872 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 3944 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-23 20:39:47,874 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-23 20:39:47,875 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-23 20:39:54,687 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 7.511 seconds (JVM running for 9.044)
+2021-02-23 20:40:45,441 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,361 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-3] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,437 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-4] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,503 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-5] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,575 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-6] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,644 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-7] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,718 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-8] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,790 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-9] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,873 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-10] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:04,941 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,008 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-2] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,074 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-3] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,140 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-4] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,208 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-5] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,274 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-6] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,342 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-7] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,414 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-8] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,492 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-9] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,561 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-10] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,630 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,696 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-2] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,765 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-3] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,837 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-4] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,905 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-5] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:05,971 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-6] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,039 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-7] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,104 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-8] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,171 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-9] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,238 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-10] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,307 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,372 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-2] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,439 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-3] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,503 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-4] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,569 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-5] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,638 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-6] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,706 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-7] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,773 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-8] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,839 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-9] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,904 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-10] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:06,971 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,038 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-2] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,106 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-3] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,171 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-4] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,237 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-5] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,304 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-6] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,372 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-7] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,439 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-8] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,504 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-9] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,569 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-10] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,636 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-1] Ingresa a AlumnoController.listar 
+2021-02-23 20:42:07,704 DEBUG mcm.personal.microservicios.app.alumnos.controllers.AlumnoController [http-nio-auto-1-exec-2] Ingresa a AlumnoController.listar 

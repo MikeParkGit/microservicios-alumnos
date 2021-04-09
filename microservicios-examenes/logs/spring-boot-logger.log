@@ -1,0 +1,9 @@
+2021-03-09 18:39:38,997 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosExamenesApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 12092 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-examenes\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-examenes)
+2021-03-09 18:39:38,998 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-03-09 18:39:38,998 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-09 18:39:40,681 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosExamenesApplication in 1.973 seconds (JVM running for 811.999)
+2021-03-09 18:40:58,537 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosExamenesApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 16172 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-examenes\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-examenes)
+2021-03-09 18:40:58,538 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-03-09 18:40:58,539 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-03-09 18:41:04,054 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosExamenesApplication in 6.234 seconds (JVM running for 7.107)
+2021-03-09 18:42:05,170 DEBUG mcm.personal.microservicios.app.examenes.controllers.ExamenController [http-nio-auto-1-exec-1] Objeto: ObjetoBean(id=1, nombre=Miguel, direccion=Cruz, fecha=2021-03-09)

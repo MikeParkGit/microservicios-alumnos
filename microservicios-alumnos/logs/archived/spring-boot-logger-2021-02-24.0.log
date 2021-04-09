@@ -1,0 +1,12 @@
+2021-02-24 19:27:50,035 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 1948 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-24 19:27:50,053 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-24 19:27:50,054 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-24 19:28:04,588 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 15.944 seconds (JVM running for 18.345)
+2021-02-24 20:01:18,062 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 1948 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-24 20:01:18,062 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-24 20:01:18,064 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-24 20:01:24,362 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 6.916 seconds (JVM running for 2018.119)
+2021-02-24 20:01:28,759 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MicroserviciosAlumnosApplication using Java 1.8.0_281 on DESKTOP-LTL3CVR with PID 1948 (D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos\target\classes started by migue in D:\DesarrolloMicroServicios\microservicios_02\microservicios-alumnos)
+2021-02-24 20:01:28,759 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-02-24 20:01:28,759 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-02-24 20:01:32,890 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MicroserviciosAlumnosApplication in 4.783 seconds (JVM running for 2026.646)

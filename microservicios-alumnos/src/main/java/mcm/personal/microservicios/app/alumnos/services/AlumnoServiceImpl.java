@@ -3,7 +3,6 @@ package mcm.personal.microservicios.app.alumnos.services;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,8 +12,12 @@ import mcm.personal.microservicios.commons.entities.models.entity.Alumno;
 @Service
 public class AlumnoServiceImpl implements AlumnoService {
 
-	@Autowired
+	//@Autowired
 	public AlumnoRepository repository;
+	
+	public AlumnoServiceImpl (AlumnoRepository alumnoRepository) {
+		this.repository = alumnoRepository;
+	}
 	
 	@Override
 	public Iterable<Alumno> findAll() {
