@@ -26,7 +26,7 @@ import mcm.personal.microservicios.app.alumnos.services.AlumnoService;
 import mcm.personal.microservicios.commons.entities.models.entity.Alumno;
 
 
-@RestController
+//@RestController
 public class AlumnoController {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(AlumnoController.class);
